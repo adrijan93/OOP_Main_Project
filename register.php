@@ -21,4 +21,20 @@ class User{
 $User = new User;
 
 $User->register();
+
+/* Temporary Array TEST */
+
+$dataArray = array(
+    'name' => 'Jan',
+    'surname' => 'Kowalski',
+    'city' => 'Warszawa',
+);
+
+$addDataArray = array(
+    'wzrost' => '188',
+    'rasa' => 'bialy',
+);
+
+$clientData = $dataArray + $addDataArray;
+
 ?>
